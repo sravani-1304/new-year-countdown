@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated fireworks background -->
+    <div class="fireworks-container">
+        <div class="firework firework-1"></div>
+        <div class="firework firework-2"></div>
+        <div class="firework firework-3"></div>
+        <div class="firework firework-4"></div>
+        <div class="firework firework-5"></div>
+    </div>
+
+    <!-- Sparkle effects -->
+    <div class="sparkles">
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+        <div class="sparkle sparkle-6"></div>
+        <div class="sparkle sparkle-7"></div>
+        <div class="sparkle sparkle-8"></div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Header section -->
+        <header class="header">
+            <h1 class="main-title">New Year Countdown</h1>
+            <p class="subtitle">Get ready to celebrate 2026!</p>
+        </header>
+
+        <!-- Countdown display -->
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">0</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">0</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">0</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">0</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+
+        <!-- Target date display -->
+        <div class="target-date">
+            <p>Countdown to <span id="target-year">2026</span></p>
+        </div>
+
+        <!-- Celebration message (hidden by default) -->
+        <div class="celebration-message" id="celebration">
+            <h2>🎉 Happy New Year! 🎉</h2>
+            <p>Welcome to <span id="current-year">2026</span>!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 New Year Countdown. Made with ❤️ for celebrating!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
