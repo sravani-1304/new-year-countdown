@@ -19,7 +19,7 @@ A simple and interactive **New Year Countdown** web app that displays the time r
 
 
 
-   ## 📸 Screenshot
+ **Screenshot**
 
 ![New Year Countdown Screenshot](screenshot.png)
 
